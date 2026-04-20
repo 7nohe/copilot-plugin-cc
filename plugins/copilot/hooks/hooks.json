@@ -1,0 +1,16 @@
+{
+  "description": "Session lifecycle hook for Copilot CLI Hub.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/scripts/lifecycle.mjs\" SessionStart",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}
