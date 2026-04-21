@@ -6,9 +6,7 @@
     "name": "7nohe"
   },
   "license": "Apache-2.0",
-  "skills": "./skills/",
   "agents": [
     "./agents/copilot-rescue.md"
-  ],
-  "hooks": "./hooks/hooks.json"
+  ]
 }
