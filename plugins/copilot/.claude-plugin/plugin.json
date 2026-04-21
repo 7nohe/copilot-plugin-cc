@@ -1,12 +1,12 @@
 {
   "name": "copilot",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Use GitHub Copilot CLI from Claude Code to ask questions, explore codebases, get implementation plans, and run tasks with different AI models",
   "author": {
     "name": "7nohe"
   },
   "license": "Apache-2.0",
-  "skills": "skills/",
-  "agents": "agents/",
-  "hooks": "hooks/hooks.json"
+  "skills": "./skills/",
+  "agents": "./agents/",
+  "hooks": "./hooks/hooks.json"
 }
